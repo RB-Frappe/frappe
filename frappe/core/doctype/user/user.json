@@ -105,6 +105,8 @@
   "api_access",
   "api_key",
   "generate_keys",
+  "mobile_otp",
+  "mobile_otp_generated_at",
   "column_break_65",
   "api_secret",
   "onboarding_status",
@@ -743,8 +745,7 @@
    "description": "Redirect to the selected app after login",
    "fieldname": "default_app",
    "fieldtype": "Select",
-   "label": "Default App",
-   "options": ""
+   "label": "Default App"
   },
   {
    "collapsible": 1,
@@ -811,6 +812,16 @@
    "fieldname": "dashboard",
    "fieldtype": "Check",
    "label": "Dashboard"
+  },
+  {
+   "fieldname": "mobile_otp",
+   "fieldtype": "Data",
+   "label": "Mobile OTP"
+  },
+  {
+   "fieldname": "mobile_otp_generated_at",
+   "fieldtype": "Datetime",
+   "label": "Mobile OTP Generated At"
   }
  ],
  "icon": "fa fa-user",
@@ -874,7 +885,7 @@
   }
  ],
  "make_attachments_public": 1,
- "modified": "2025-03-17 11:29:39.254304",
+ "modified": "2025-06-12 10:40:20.785725",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",
